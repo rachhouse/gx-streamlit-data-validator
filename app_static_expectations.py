@@ -28,13 +28,13 @@ APP_EXPECTATIONS = [
 # Display proportions for columns containing expectation details.
 EXPECTATION_COLUMN_SIZE = [1, 2, 5]
 
-# Sidebar content.
 st.set_page_config(
     page_title="Proof-of-Concept Data Validator feat. Great Expectations",
     page_icon="🐣",
     initial_sidebar_state="expanded",
 )
 
+# Sidebar content.
 st.sidebar.title("Proof-of-Concept Data Validator")
 st.sidebar.markdown(
     "*featuring [**Great Expectations**](https://greatexpectations.io)*"
