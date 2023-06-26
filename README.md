@@ -1,5 +1,4 @@
 # gx-streamlit-data-validator
-A simple, proof-of-concept dynamic data validator featuring Great Expectations and Streamlit
 
 This repo hosts a simple, interactive, proof-of-concept data validator application built using [Streamlit](https://streamlit.io) and [Great Expectations](https://greatexpectations.io/gx-oss).
 
