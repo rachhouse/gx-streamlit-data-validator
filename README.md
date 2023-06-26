@@ -3,10 +3,10 @@
 This repo hosts a simple, interactive, proof-of-concept data validator application built using [Streamlit](https://streamlit.io) and [Great Expectations](https://greatexpectations.io/gx-oss).
 
 ## How to Run the App
-This app uses [poetry](https://python-poetry.org) for dependency & environment management; the run instructions below assume you have poetry installed.
+This app uses [Poetry](https://python-poetry.org) for dependency & environment management; the run instructions below assume you have [Poetry installed](https://python-poetry.org/docs/#installation).
 
 There are two versions of the app that you can choose to run:
-* `app_static_expectations.py`. This version implements a static set of expectations that cannot be altered.
+* `app_static_expectations.py`. This version implements a static (hardcoded) set of expectations that cannot be altered.
 * `app_dynamic_expectations.py`: This version allows you to add and remove expectations within the running app.
 
 To run the app:
